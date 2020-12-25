@@ -34,7 +34,7 @@ Kelimelerimiz şunlardır:
     # Tahmin döngüsü
     while tahminHakki > 0:
         # Tahmin edilen harfi alma 
-        # Lover modülü ile büyük harf dahi girilse küçültüyoruz
+        # Lover methodu ile büyük harf dahi girilse küçültüyoruz
         veri = input("Tahmin ettiğiniz harfi giriniz : ").lower()
         # 1 saniye bekletme
         time.sleep(1)
